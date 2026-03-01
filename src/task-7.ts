@@ -1,3 +1,5 @@
+console.warn('Task 7: Async Function with Promise');
+
 async function getMessage(): Promise<string> {
   const message: string = await new Promise<string>(resolve => {
     setTimeout(() => {
@@ -7,7 +9,6 @@ async function getMessage(): Promise<string> {
   return message;
 }
 
-console.warn('Task 7: Async Function with Promise');
 getMessage().then(result => console.log(result));
 
 // Завдання:
