@@ -1,0 +1,1 @@
+console.warn("Завдання 3: Типізація масивів");const o=["alice","bob","charlie"],s=[4.5,3.8,5],n=[{id:1,title:"Phone"},{id:2,title:"Laptop"}];console.log(`Usernames: ${JSON.stringify(o)}`);console.log(`Ratings: ${JSON.stringify(s)}`);console.log(`Products: ${JSON.stringify(n)}`);
