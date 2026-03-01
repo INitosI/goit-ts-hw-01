@@ -1,12 +1,11 @@
 console.warn('Task 7: Async Function with Promise');
 
-async function getMessage(): Promise<string> {
-  const message: string = await new Promise<string>(resolve => {
+function getMessage(): Promise<string> {
+  return new Promise<string>(resolve => {
     setTimeout(() => {
       resolve('Hello from TS');
     }, 1000);
   });
-  return message;
 }
 
 getMessage().then(result => console.log(result));
