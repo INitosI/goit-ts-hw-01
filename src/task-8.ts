@@ -1,4 +1,5 @@
 import axios from 'axios';
+console.warn('Task 8: Fetching Data with Axios');
 
 interface Post {
   id: number;

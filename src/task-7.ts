@@ -1,3 +1,5 @@
+console.warn('Task 7: Async Function with Promise');
+
 async function getMessage(): Promise<string> {
   const message: string = await new Promise<string>(resolve => {
     setTimeout(() => {
